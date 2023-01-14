@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { ethers } from "ethers";
 import { useRouter } from "next/router";
-// import { useStateContext } from "../context";
 import { CustomButton, CountBox, Loader, SideBar, Navbar } from "../components";
 import { calculateBarPercentage, daysLeft } from "../utils";
-import { thirdweb } from "../assets";
 import { useTasks } from "../components/AppContext";
 
 const CampaignDetails = () => {

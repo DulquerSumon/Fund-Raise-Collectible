@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { SideBar, Navbar, DisplayCampaigns } from "../components";

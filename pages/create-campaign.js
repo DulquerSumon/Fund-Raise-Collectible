@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { ethers } from "ethers";
-import { useStateContext } from "../context";
-import { createCampaign, money } from "../assets";
 import {
   CustomButton,
   FormField,
