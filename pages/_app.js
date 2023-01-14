@@ -1,6 +1,7 @@
 import { Web3ReactProvider } from "@web3-react/core";
 import { Web3Provider } from "@ethersproject/providers";
 import { IntegratingProvider } from "../components/AppContext";
+import "../styles/globals.css";
 
 const getLibrary = (provider) => {
   return new Web3Provider(provider);
