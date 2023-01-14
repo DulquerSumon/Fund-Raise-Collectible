@@ -42,7 +42,7 @@ const FundCard = ({
         <div className="flex flex-col p-4">
           <div className="flex flex-row items-center mb-[18px]">
             <img
-              src="/Type.svg"
+              src="/type.svg"
               alt="tag"
               className="w-[17px] h-[17px] object-contain"
             />
